@@ -1,16 +1,19 @@
 # state_management
 
-A new Flutter project.
+플루터 상태관리 테스트 앱
 
-## Getting Started
+## 프로젝트 초기 순서
 
-This project is a starting point for a Flutter application.
+```bash
+flutter project state_management
+git init
+```
 
-A few resources to get you started if this is your first Flutter project:
+## pubspec 관리
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub add provider
+flutter pub add equatable
+flutter pub add flutter_state_notifier
+flutter pub add state_notifier
+```
